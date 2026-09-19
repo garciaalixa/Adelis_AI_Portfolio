@@ -1,0 +1,21 @@
+Think Like an AI Designer
+
+My  features are the informationthat would be given to the AI that would help it determine whether a scent is considered attractive or pleasant. That would include the scent characterisitics, intensity, emotional response to scents, familiarity with scents, previous scent preferences, and the different rations.
+
+My labels are being represented as Yes/No with possible suggestions for the individual.
+
+My training data should contain the previous participants' scent evaluations, including the characterisitics and other information about each scent. It would include all of the features above and AI would utilize those patterns.
+
+My testing data should be kept separate because the AI will need to evalute information it doesn't have yet. If the training and testing data were the same, the model could seem more accurate than it actually is since it is learning from those examples. It being separated provides a better idea of how well the model could work with the new scent evaluations.
+
+A false positive could be if the AI suggests a certain for that person, but the person does not like it. 
+
+A false negative could be if the AI could not find a scent for the individual or the opposite effect of the false positive.
+
+A precision would be important because the companies and researches would want the predictions to be as accurate as possible. However, recall is also useful since the goal is to identify as many potentially attarctive or pleasant scents as possible.
+
+The types of poor quality data that would affect this model would be missing information, participants misunderstanding questions, small sample sizes, inaccurate information about scent characterisitics, inconsistent ratings, and biased smaples of participants.
+
+Something that could cause this model to overfit would be if it is trained on a dataset that is too specific or small. Even using too many features compared with the amount of training would also make it too overfitting.
+
+Something that would make me trust the dataset would be if it was trained on a very large, diverse dataset with consistently accurate produced results. I would not trust the dataset if it was too small or if the suggestions provided were incomplete.
